@@ -1,108 +1,110 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
-          target="_blank"
-          rel="noopener"
-          >router</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-          >eslint</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript"
-          target="_blank"
-          rel="noopener"
-          >typescript</a
-        >
-      </li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li>
-        <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
-      </li>
-      <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
-          >Forum</a
-        >
-      </li>
-      <li>
-        <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-          >Community Chat</a
-        >
-      </li>
-      <li>
-        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-          >Twitter</a
-        >
-      </li>
-      <li>
-        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
-      </li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener"
-          >vue-router</a
-        >
-      </li>
-      <li>
-        <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
-          target="_blank"
-          rel="noopener"
-          >vue-devtools</a
-        >
-      </li>
-      <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
-          >vue-loader</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-          rel="noopener"
-          >awesome-vue</a
-        >
-      </li>
-    </ul>
+  <svg
+    id="backgroundDesign"
+    xmlns="http://www.w3.org/2000/svg"
+    fill-rule="evenodd"
+    preserveAspectRatio="xMidYMax slice"
+    stroke-linejoin="round"
+    stroke-miterlimit="1.41421"
+    clip-rule="evenodd"
+    viewBox="0 0 1920 1200"
+  >
+    <path
+      class="vibrate-slow-1"
+      fill="url(#_Linear1)"
+      d="M1933-19s-273.175 481.215-543.607 443.874c-270.431-37.341-491.08-251.918-677.168-175.592-161.697 66.321-325.778 320.713-29.035 557.338 376.292 300.059 1119.66 396.359 1119.66 396.359l-1642.31 14.014V-1.247L1933-18.998z"
+    ></path>
+    <path
+      fill="url(#_Linear2)"
+      d="M1690 0s-42.182 372.782-341 336c-298.818-36.782-466.852-265.409-693-161-226.148 104.409-350.389 405.447-147 722s193 303 193 303H0V0h1690z"
+    ></path>
+    <defs>
+      <linearGradient
+        id="_Linear1"
+        x2="1"
+        gradientTransform="matrix(1772.46 0 0 1235.99 160.542 598.996)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stop-color="#513db6"></stop>
+        <stop offset="1" stop-color="#562590"></stop>
+      </linearGradient>
+      <linearGradient
+        id="_Linear2"
+        x2="1"
+        gradientTransform="matrix(1690 0 0 1200.08 0 600.042)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stop-color="#8137dd"></stop>
+        <stop offset="1" stop-color="#6143ef"></stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <a class="navbar-brand" href="#">NUIST</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"
+            >首页 <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">部门</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">招新</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Coming Soon!</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="centeredContent" class="container h-100 d-flex">
+    <div class="jumbotron-fluid my-auto">
+      <div class="row justify-content-md-end">
+        <div class="col col-md-6">
+          <div class="row">
+            <div class="col col-md-auto">
+              <h1 class="display-3">南信大校科协</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md">
+              <p class="lead">
+                南京信息工程大学大学生科学技术协会（Students’ Association for
+                Science and
+                Technology),简称SAST，中文简称南信大校科协，成立于1992年。它是在校团委指导下，依照国家法规和大学生规章制度，独立开展活动的学生科技文化及学术研究的组织，也是校团委直属的组织中唯一一个技术类的学生组织。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
+if (document.location.search.match(/type=embed/gi)) {
+  window.parent.postMessage("resize", "*");
+}
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -115,18 +117,146 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+html,
+body {
+  height: 100%;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+#backgroundDesign {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.vibrate-slow-1 {
+  -webkit-animation: vibrate-2 5s linear infinite both;
+  animation: vibrate-2 5s linear infinite both;
 }
-a {
-  color: #42b983;
+
+.vibrate-slow-2 {
+  -webkit-animation: vibrate-2 5s linear infinite both;
+  animation: vibrate-2 5s linear infinite both;
+}
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-60px, 60px);
+    transform: translate(-60px, 60px);
+  }
+  40% {
+    -webkit-transform: translate(-6px, -6px);
+    transform: translate(-6px, -6px);
+  }
+  60% {
+    -webkit-transform: translate(6px, 6px);
+    transform: translate(6px, 6px);
+  }
+  80% {
+    -webkit-transform: translate(6px, -6px);
+    transform: translate(6px, -6px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-20px, 20px);
+    transform: translate(-20px, 20px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+/**
+ * ----------------------------------------
+ * animation vibrate-2
+ * ----------------------------------------
+ */
+@-webkit-keyframes vibrate-2 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(20px, 20px);
+    transform: translate(20px, 20px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-2 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 }
 </style>
