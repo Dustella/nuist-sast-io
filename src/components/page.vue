@@ -45,16 +45,12 @@
         <div class="col col-md-6">
           <div class="row">
             <div class="col col-md-auto">
-              <h1 class="display-3">南信大校科协</h1>
+              <h1 class="display-3">{{ title }}</h1>
             </div>
           </div>
           <div class="row">
             <div class="col col-md">
-              <p class="lead">
-                南京信息工程大学大学生科学技术协会（Students’ Association for
-                Science and
-                Technology),简称SAST，中文简称南信大校科协，成立于1992年。它是在校团委指导下，依照国家法规和大学生规章制度，独立开展活动的学生科技文化及学术研究的组织，也是校团委直属的组织中唯一一个技术类的学生组织。
-              </p>
+              <p class="lead">{{ contente }}</p>
             </div>
           </div>
         </div>
@@ -70,9 +66,10 @@ if (document.location.search.match(/type=embed/gi)) {
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "HelloWorld",
+  name: "stdpage",
   props: {
-    msg: String,
+    title: String,
+    contente: String,
   },
 });
 </script>
