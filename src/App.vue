@@ -14,8 +14,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <router-link to="/Home.vue">首页</router-link> |
-        <router-link to="/Home.vue">招新</router-link>
+        <router-link to="/Home">首页</router-link> |
+        <router-link to="/About">招新</router-link>
       </div>
     </nav>
     <!-- <router-link to="/">Home</router-link> |
