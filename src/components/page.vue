@@ -39,44 +39,6 @@
       </linearGradient>
     </defs>
   </svg>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-    <a class="navbar-brand" href="#">NUIST</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"
-            >首页 <span class="sr-only">(current)</span></a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">部门</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">招新</a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-            >Coming Soon!</a
-          >
-        </li>
-      </ul>
-    </div>
-  </nav>
   <div id="centeredContent" class="container h-100 d-flex">
     <div class="jumbotron-fluid my-auto">
       <div class="row justify-content-md-end">
